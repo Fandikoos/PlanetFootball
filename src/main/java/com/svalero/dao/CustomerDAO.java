@@ -17,8 +17,8 @@ public interface CustomerDAO {
     @SqlUpdate("INSERT INTO clientes (name, surname, telephone) VALUE (?, ?, ?)")
     void addCustomer (String name, String surname, int phone);
 
-    @SqlUpdate("UPDATE clientes SET name = ?, surname = ?, phone = ? WHERE id_customer = ?")
-    void editCustomer(String name, String surname, int phone, int id_customer);
+    @SqlUpdate("UPDATE clientes SET name = ?, surname = ?, telephone = ? WHERE id_customer = ?")
+    void editCustomer(String name, String surname, int telephone, int id_customer);
 
     @SqlUpdate("DELETE FROM clientes WHERE id_customer = ?")
     void removeCustomer(int id_customer);

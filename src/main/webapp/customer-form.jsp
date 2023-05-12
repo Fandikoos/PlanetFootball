@@ -38,7 +38,7 @@
           <input type="hidden" name="action" value="<%= action %>"/>
           <%
           if (action.equals("edit")) {
-            int id = Integer.parseInt(request.getParameter("id"));
+            int id = Integer.parseInt(request.getParameter("id_customer"));
           %>
           <input type="hidden" name="id" value="<%= id %>"/>
           <%
