@@ -1,6 +1,7 @@
 package com.svalero.dao;
 
 import com.svalero.domain.Customer;
+import com.svalero.domain.Product;
 import org.jdbi.v3.sqlobject.statement.SqlQuery;
 import org.jdbi.v3.sqlobject.statement.SqlUpdate;
 import org.jdbi.v3.sqlobject.statement.UseRowMapper;
@@ -21,4 +22,8 @@ public interface CustomerDAO {
 
     @SqlUpdate("DELETE FROM clientes WHERE id_customer = ?")
     void removeCustomer(int id_customer);
+
+    @SqlQuery("SELECT * FROM clientes WHERE id_customer = ?")
+    @UseRowMapper(CustomerMbapper.class)
+    Customer getCustomer(int id_customer);
 }

@@ -42,7 +42,7 @@
 
               </div>
               <div class="botones">
-                <a href="" class="btn btn-info">Details</a>
+                <a href="view-details-customers.jsp?id_customer=<%=customer.getId_customer() %>" class="btn btn-info">Details</a>
                 <a href="" class="btn btn-primary">Edit</a>
                 <a href="remove-customer?id_customer=<%= customer.getId_customer() %>" class="btn btn-danger">Delete</a>
               </div>
