@@ -45,7 +45,7 @@
               <div class="botones">
                 <a href="" class="btn btn-info">Details</a>
                 <a href="" class="btn btn-primary">Edit</a>
-                <a href="" class="btn btn-danger">Delete</a>
+                <a href="remove-product?id=<%= product.getId() %>" class="btn btn-danger">Delete</a>
               </div>
 
             </div>
