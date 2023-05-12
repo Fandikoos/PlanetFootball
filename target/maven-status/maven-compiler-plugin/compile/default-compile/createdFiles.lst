@@ -1,6 +1,7 @@
-com\svalero\dao\ProductDAO.class
 com\svalero\dao\ProductMbapper.class
 com\svalero\domain\Product.class
 com\svalero\dao\Database.class
-com\svalero\domain\Customer.class
 com\svalero\util\Constants.class
+com\svalero\dao\ProductDAO.class
+com\svalero\servlet\AddEditProductServlet.class
+com\svalero\domain\Customer.class

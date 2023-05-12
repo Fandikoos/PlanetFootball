@@ -13,5 +13,13 @@ public interface ProductDAO {
     @UseRowMapper(ProductMbapper.class)
     List<Product> getProducts();
 
+    @SqlUpdate("INSERT INTO productos (name, price, category, model, color) VALUES (?, ?, ?, ?, ?)")
+    void addProduct (String name, int price, String category, String model, String color);
+
+    @SqlUpdate("UPDATE productos SET name = ?, price = ?, category = ?, model = ?, color = ? WHERE id = ?")
+    void editProduct (String name, int price, String category, String model, String color, int id);
+
+
+
 }
 
