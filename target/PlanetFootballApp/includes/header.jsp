@@ -17,8 +17,8 @@
 
   <div class="container">
     <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-        <img src="https://img.freepik.com/vector-premium/futbol-diseno-logotipo-tienda-mercado-ilustracion-bolsa-compras_567637-384.jpg?w=2000" alt="logo empresa" width="50" height="50">
+      <a href="index.jsp" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+        <img src="https://img.freepik.com/vector-gratis/plantilla-logotipo-futbol-diseno-plano-dibujado-mano_23-2149373252.jpg?w=360" alt="logo empresa" width="50" height="50">
         <span class="fs-4">FOOTAPP</span>
       </a>
 

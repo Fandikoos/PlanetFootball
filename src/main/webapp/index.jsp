@@ -35,11 +35,11 @@
                 <img src="" class="card-img-top" alt="...">
               </div>
               <div class="card-body">
-                <h5 class="card-title"> <%= product.getName() %> </h5>
-                <h5 class="card-title"> <%= product.getModel() %> </h5>
+                <h5 class="card-title">Name: <%= product.getName() %> </h5>
+                <h5 class="card-title">Model:  <%= product.getModel() %> </h5>
 
-                <p class="card-text"> <%= product.getPrice() %></p>
-                <p class="card-text"> <%= product.getCategory() %></p>
+                <p class="card-text">Price: <%= product.getPrice() %></p>
+                <p class="card-text">Category: <%= product.getCategory() %></p>
 
               </div>
               <div class="botones">
