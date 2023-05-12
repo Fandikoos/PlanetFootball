@@ -19,4 +19,6 @@ public interface CustomerDAO {
     @SqlUpdate("UPDATE clientes SET name = ?, surname = ?, phone = ? WHERE id_customer = ?")
     void editCustomer(String name, String surname, int phone, int id_customer);
 
+    @SqlUpdate("DELETE FROM clientes WHERE id_customer = ?")
+    void removeCustomer(int id_customer);
 }
