@@ -11,13 +11,12 @@ public class ProductMbapper implements RowMapper<Product> {
 
     @Override
     public Product map(ResultSet rs, StatementContext ctx) throws SQLException{
-        return new Product (rs.getInt("id_product"),
+        return new Product (rs.getInt("id"),
                 rs.getString("category"),
                 rs.getString("name"),
                 rs.getInt("price"),
                 rs.getString("model"),
-                rs.getString("color"),
-                rs.getString("image"));
+                rs.getString("color"));
     }
 
 }

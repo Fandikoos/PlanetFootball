@@ -1,9 +1,14 @@
 package com.svalero.domain;
 
-import lombok.NonNull;
+import lombok.*;
 
+@Data
+@RequiredArgsConstructor
+@AllArgsConstructor
+@NoArgsConstructor
+@ToString
 public class Product {
-    private int id_product;
+    private int id;
 
     @NonNull
     private String category;
@@ -20,6 +25,4 @@ public class Product {
     @NonNull
     private String color;
 
-    @NonNull
-    private String image;
 }

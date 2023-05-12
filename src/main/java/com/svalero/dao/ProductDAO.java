@@ -13,17 +13,5 @@ public interface ProductDAO {
     @UseRowMapper(ProductMbapper.class)
     List<Product> getProducts();
 
-    @SqlQuery("SELECT * FROM productos WHERE id_product= ?")
-    @UseRowMapper(ProductMbapper.class)
-    Product getProduct(int id_product);
-
-    @SqlUpdate("INSERT INTO productos (category, name, price, model, color, image) VALUES (?, ?, ?, ?, ?, ?)")
-    void addProduct(String category, String name, int price, String model, String color, String image);
-
-    @SqlUpdate("DELETE FROM productos WHERE id_product = ?")
-    void removeProduct(int id_product);
-
-    @SqlUpdate("UPDATE productos SET name = ? AND model = ?")
-    @UseRowMapper(ProductMbapper.class)
-    List<Product> getFilterProducts(String name, String model);
 }
+
