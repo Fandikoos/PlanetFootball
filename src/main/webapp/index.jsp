@@ -17,7 +17,7 @@
         <a href="product-form.jsp?action=register"><button type="button" class="btn btn-outline-primary btn-lg px-4">Register product</button></a>
         <button type="button" class="btn btn-outline-primary btn-lg px-4">Register client</button>
         <a href=""><button type="button" class="btn btn-outline-secondary btn-lg px-4">Search for product</button></a>
-        <button type="button" class="btn btn-outline-secondary btn-lg px-4">All our clients</button>
+        <a href="customer-index.jsp"><button type="button" class="btn btn-outline-secondary btn-lg px-4">All our clients</button></a>
 
       </div>
     </div>
