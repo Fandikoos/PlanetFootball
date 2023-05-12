@@ -22,6 +22,10 @@ public interface ProductDAO {
     @SqlUpdate("DELETE FROM productos WHERE id = ?")
     void removeProduct(int id);
 
+    @SqlQuery("SELECT * FROM productos WHERE id = ?")
+    @UseRowMapper(ProductMbapper.class)
+    Product getProduct(int id);
+
 
 }
 

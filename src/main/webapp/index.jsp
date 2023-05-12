@@ -43,7 +43,7 @@
 
               </div>
               <div class="botones">
-                <a href="" class="btn btn-info">Details</a>
+                <a href="view-details.jsp?id=<%= product.getId() %>" class="btn btn-info">Details</a>
                 <a href="" class="btn btn-primary">Edit</a>
                 <a href="remove-product?id=<%= product.getId() %>" class="btn btn-danger">Delete</a>
               </div>
