@@ -44,7 +44,7 @@
               </div>
               <div class="botones">
                 <a href="view-details.jsp?id=<%= product.getId() %>" class="btn btn-info">Details</a>
-                <a href="" class="btn btn-primary">Edit</a>
+                <a href="product-form.jsp?id=<%= product.getId() %>&action=edit&name=<%= product.getName() %>&price=<%= product.getPrice() %>&category=<%= product.getCategory() %>&model=<%= product.getModel() %>&color=<%= product.getColor() %>" class="btn btn-primary">Edit</a>
                 <a href="remove-product?id=<%= product.getId() %>" class="btn btn-danger">Delete</a>
               </div>
 
