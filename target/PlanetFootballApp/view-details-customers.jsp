@@ -17,7 +17,6 @@
     <div style="display: flex; justify-content: center; align-items: center; padding-top: 150px;">
         <div class="container_details">
             <div class="card" style="width: 18rem; border: 3px solid black;">
-              <img src="" class="card-img-top" alt="Product image">
               <div class="card-body">
                 <h5 class="card-title"></h5>
                 <p class="card-text">More details about the customer <b></b></p>
