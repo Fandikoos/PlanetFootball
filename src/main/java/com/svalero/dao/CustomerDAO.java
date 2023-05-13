@@ -26,4 +26,9 @@ public interface CustomerDAO {
     @SqlQuery("SELECT * FROM clientes WHERE id_customer = ?")
     @UseRowMapper(CustomerMbapper.class)
     Customer getCustomer(int id_customer);
+
+    @SqlQuery("SELECT * FROM clientes WHERE name = ? OR surname = ?")
+    @UseRowMapper(CustomerMbapper.class)
+    List<Customer> getFilterCustomers(String name, String surname);
+
 }

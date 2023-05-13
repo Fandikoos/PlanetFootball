@@ -1,4 +1,5 @@
 com\svalero\dao\CustomerMbapper.class
+com\svalero\servlet\SearchCustomerServlet.class
 com\svalero\dao\Database.class
 com\svalero\dao\CustomerDAO.class
 com\svalero\servlet\RemoveCustomerServlet.class
