@@ -26,6 +26,11 @@ public interface ProductDAO {
     @UseRowMapper(ProductMbapper.class)
     Product getProduct(int id);
 
+    @SqlQuery("SELECT * FROM productos WHERE category = ? AND model = ?")
+    @UseRowMapper(ProductMbapper.class)
+    List<Product> getFilterProducts(String category, String model);
+
+
 
 }
 
