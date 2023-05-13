@@ -46,6 +46,10 @@
              <label for="color" class="form-label">Color</label>
              <input type="text" class="form-control" id="color" name="color">
           </div>
+          <div class="row mb-3">
+              <label for="image" class="form-label">Image</label>
+              <input type="file" class="form-control" id="image" name="image">
+          </div>
           <input type="hidden" name="action" value="<%= action %>"/>
           <%
           if (action.equals("edit")) {

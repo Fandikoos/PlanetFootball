@@ -32,7 +32,7 @@
         %>
             <div class="card" style="width: 24rem;">
               <div class="imagen-container">
-                <img src="" class="card-img-top" alt="...">
+                <img src="../football_data/<%= product.getImage() %>" class="card-img-top" alt="...">
               </div>
               <div class="card-body">
                 <h5 class="card-title">Name: <%= product.getName() %> </h5>

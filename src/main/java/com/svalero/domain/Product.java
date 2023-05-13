@@ -25,4 +25,6 @@ public class Product {
     @NonNull
     private String color;
 
+    @NonNull
+    private String image;
 }

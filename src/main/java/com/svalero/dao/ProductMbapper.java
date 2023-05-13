@@ -16,7 +16,8 @@ public class ProductMbapper implements RowMapper<Product> {
                 rs.getString("name"),
                 rs.getInt("price"),
                 rs.getString("model"),
-                rs.getString("color"));
+                rs.getString("color"),
+                rs.getString("image"));
     }
 
 }
