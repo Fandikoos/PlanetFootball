@@ -14,8 +14,8 @@
     <div class="col-lg-6 mx-auto">
       <p class="lead mb-4">Welcome to Planet Football App, from here you can register customers, products, list...</p>
       <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-        <a href="customer-form.jsp"><button type="button" class="btn btn-outline-primary btn-lg px-4">Register customer</button></a>
-        <button type="button" class="btn btn-outline-primary btn-lg px-4">Register client</button>
+        <a href="product-form.jsp?action=register"><button type="button" class="btn btn-outline-primary btn-lg px-4">Register product</button></a>
+        <a href="customer-form.jsp?action=register"<button type="button" class="btn btn-outline-primary btn-lg px-4">Register client</button>
         <a href="search-form-customers.jsp"><button type="button" class="btn btn-outline-secondary btn-lg px-4">Search for customer</button></a>
         <a href="index.jsp"><button type="button" class="btn btn-outline-secondary btn-lg px-4">All our products</button></a>
 
