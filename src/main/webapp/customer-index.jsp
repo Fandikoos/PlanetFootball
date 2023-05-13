@@ -31,9 +31,6 @@
             for (Customer customer : customerList) {
         %>
             <div class="card" style="width: 24rem;">
-              <div class="imagen-container">
-                <img src="" class="card-img-top" alt="...">
-              </div>
               <div class="card-body">
                 <h5 class="card-title"> <%= customer.getName() %> </h5>
                 <h5 class="card-title"> <%= customer.getSurname() %> </h5>
