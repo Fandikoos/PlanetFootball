@@ -1,0 +1,30 @@
+USE planet;
+SET SQL_SAFE_UPDATES = 0;
+
+CREATE TABLE CLIENTES (
+    ID_CLIENTE VARCHAR(50) PRIMARY KEY auto_increment,
+    NOMBRE VARCHAR(50),
+    APELLIDO VARCHAR(50),
+    TELEFONO VARCHAR(15)
+);
+
+CREATE TABLE PRODUCTOS (
+    ID_PRODUCTO VARCHAR(50) PRIMARY KEY auto_increment,
+    CATEGORIA VARCHAR(50),
+    MODELO VARCHAR(50),
+    COLOR VARCHAR(15)
+);
+
+CREATE TABLE COMPRAS(
+	id_purchase INT AUTO_INCREMENT PRIMARY KEY,
+    id_cliente INT,
+    id INT,
+    FOREIGN KEY (id_cliente) REFERENCES clientes(id_customer),
+    FOREIGN KEY (id) REFERENCES productos(id)
+);
+
+/* Plan de contingencia, con el orden adecuado para borrar todas las tablas*/
+
+DROP TABLE COMPRAS;
+DROP TABLE CLIENTES;
+DROP TABLE PRODUCTOS;
