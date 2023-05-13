@@ -28,23 +28,23 @@
         <form class="row g-3" method="post" action="edit-product" enctype="multipart/form-data">
           <div class="row mb-3">
                 <label for="name" class="form-label">Name</label>
-                <input type="text" class="form-control" id="name" name="name">
+                <input type="text" class="form-control" id="name" name="name" value='<%= name %>'>
           </div>
           <div class="row mb-3">
                 <label for="price" class="form-label">Price</label>
-                <input type="text" class="form-control" id="price" name="price">
+                <input type="text" class="form-control" id="price" name="price" value='<%= price %>'>
           </div>
           <div class="row mb-3">
                 <label for="category" class="form-label">Category</label>
-                <input type="text" class="form-control" id="category" name="category">
+                <input type="text" class="form-control" id="category" name="category" value='<%= category %>'>
           </div>
           <div class="row mb-3">
                <label for="model" class="form-label">Model</label>
-               <input type="text" class="form-control" id="model" name="model">
+               <input type="text" class="form-control" id="model" name="model" value='<%= model %>'>
           </div>
           <div class="row mb-3">
              <label for="color" class="form-label">Color</label>
-             <input type="text" class="form-control" id="color" name="color">
+             <input type="text" class="form-control" id="color" name="color" value='<%= color %>'>
           </div>
           <div class="row mb-3">
               <label for="image" class="form-label">Image</label>

@@ -24,15 +24,15 @@
         <form class="row g-3" method="post" action="edit-customer" enctype="multipart/form-data">
           <div class="row mb-3">
                 <label for="name" class="form-label">Name</label>
-                <input type="text" class="form-control" id="name" name="name">
+                <input type="text" class="form-control" id="name" name="name" value='<%= name %>'>
           </div>
           <div class="row mb-3">
                 <label for="surname" class="form-label">Surname</label>
-                <input type="text" class="form-control" id="surname" name="surname">
+                <input type="text" class="form-control" id="surname" name="surname" value='<%= surname %>'>
           </div>
           <div class="row mb-3">
                 <label for="telephone" class="form-label">Phone</label>
-                <input type="text" class="form-control" id="telephone" name="telephone">
+                <input type="text" class="form-control" id="telephone" name="telephone" value='<%= telephone %>'>
           </div>
 
           <input type="hidden" name="action" value="<%= action %>"/>
