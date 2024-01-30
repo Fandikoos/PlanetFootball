@@ -10,6 +10,7 @@ import java.util.List;
 
 public interface CustomerDAO {
 
+    //Probando git y github, mergeando etc
     @SqlQuery("SELECT * FROM clientes")
     @UseRowMapper(CustomerMbapper.class)
     List<Customer> getCustomers();
